@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Citas Medicas</string>
+
+    <string name="titulo_header">Clinic Online</string>
+
+    <string name="selected">Seleccione Doctor</string>
+    <string name="selected1">Seleccione Turno</string>
+    <string name="selected2">Seleccione Sede</string>
+    <string name="selected3">Seleccione Especialidad</string>
+
+    <string name="menu_Open">Drawer Menu</string>
+    <string name="close_menu">Close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ayuda">En este apartado de ayuda brindamos darle atencion a las dudas de nuestros clientes cabe destacar para una consulta mas a profundidad puedes contactarnos al numeros 2209-3000 si no tambien puedes reiniciar la aplicacion en caso que eso no funcione comunicate pronto</string>
+
+</resources>

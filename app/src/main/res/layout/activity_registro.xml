@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="45dp"
+            android:text="Registrarme"
+            android:textColor="#2386B8"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sbtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tTitulo"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Bienvenido Clinic Online"
+            android:textColor="#2CA7E0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbtitulo"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/editbuttom"
+            android:drawableLeft="@drawable/lgperson"
+            android:drawablePadding="10dp"
+            android:hint="Nombre de usuario:"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColorHint="#2CA7E0" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/editbuttom"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:hint="Contraseña:"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColorHint="#2CA7E0" />
+
+        <EditText
+            android:id="@+id/rePassword"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Password"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/editbuttom"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:hint="Confirmar Contraseña:"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColorHint="#2CA7E0" />
+
+        <TextView
+            android:id="@+id/signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rePassword"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#fff"
+            android:fontFamily="sans-serif-medium"
+            android:minHeight="48dp"
+            android:text="Ya tienes una cuenta?"
+            android:textColor="#2CA7E0"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/signin"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttom"
+            android:gravity="center"
+            android:text="Registrarme"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/sbtitulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:background="#78BBE6" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
